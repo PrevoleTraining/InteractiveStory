@@ -25,7 +25,7 @@
                                 <rect key="frame" x="116" y="589" width="143" height="30"/>
                                 <state key="normal" title="Start Your Adventure"/>
                                 <connections>
-                                    <segue destination="eKx-O8-YLc" kind="show" id="tRF-HG-gpK"/>
+                                    <segue destination="eKx-O8-YLc" kind="show" identifier="starAdventure" id="tRF-HG-gpK"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -46,10 +46,10 @@
             </objects>
             <point key="canvasLocation" x="719" y="149"/>
         </scene>
-        <!--View Controller-->
+        <!--Page Controller-->
         <scene sceneID="sMT-Ng-A3P">
             <objects>
-                <viewController id="eKx-O8-YLc" sceneMemberID="viewController">
+                <viewController id="eKx-O8-YLc" customClass="PageController" customModule="InteractiveStory" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BI3-zd-M8N">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

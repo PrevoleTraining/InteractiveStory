@@ -14,6 +14,7 @@
 		FD60B3551FE7D60D00C81F77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD60B3531FE7D60D00C81F77 /* LaunchScreen.storyboard */; };
 		FD60B35D1FE7DCF700C81F77 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD60B35C1FE7DCF700C81F77 /* Story.swift */; };
 		FD60B35F1FE7DF3500C81F77 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD60B35E1FE7DF3500C81F77 /* Page.swift */; };
+		FD60B3611FEBDCAA00C81F77 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD60B3601FEBDCAA00C81F77 /* PageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FD60B3561FE7D60D00C81F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD60B35C1FE7DCF700C81F77 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		FD60B35E1FE7DF3500C81F77 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		FD60B3601FEBDCAA00C81F77 /* PageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +62,13 @@
 			children = (
 				FD60B34A1FE7D60D00C81F77 /* AppDelegate.swift */,
 				FD60B34C1FE7D60D00C81F77 /* ViewController.swift */,
+				FD60B3601FEBDCAA00C81F77 /* PageController.swift */,
+				FD60B35E1FE7DF3500C81F77 /* Page.swift */,
 				FD60B35C1FE7DCF700C81F77 /* Story.swift */,
 				FD60B34E1FE7D60D00C81F77 /* Main.storyboard */,
 				FD60B3511FE7D60D00C81F77 /* Assets.xcassets */,
 				FD60B3531FE7D60D00C81F77 /* LaunchScreen.storyboard */,
 				FD60B3561FE7D60D00C81F77 /* Info.plist */,
-				FD60B35E1FE7DF3500C81F77 /* Page.swift */,
 			);
 			path = InteractiveStory;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 				FD60B34B1FE7D60D00C81F77 /* AppDelegate.swift in Sources */,
 				FD60B35F1FE7DF3500C81F77 /* Page.swift in Sources */,
 				FD60B35D1FE7DCF700C81F77 /* Story.swift in Sources */,
+				FD60B3611FEBDCAA00C81F77 /* PageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
