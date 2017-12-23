@@ -53,6 +53,7 @@
                     <navigationItem key="navigationItem" id="ur6-Rg-gcc"/>
                     <connections>
                         <outlet property="nameTextField" destination="T3X-KS-ldM" id="ctS-N4-LQS"/>
+                        <outlet property="nameTextFieldBottomConstraint" destination="f4w-B8-Npc" id="6KD-gT-iTZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
